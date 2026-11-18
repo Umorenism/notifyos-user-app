@@ -14,7 +14,7 @@ import ResetPassword from "./component/Auth/ResetPassword"; // Adjust path as ne
 // Dashboard Views
 import MessagingOverviewDashboard from "./pages/Overview";
 import MessagesPage from "./pages/Messaging";
-import SenderIds from "./pages/SenderIds";
+import SenderIdsPage from "./pages/SenderIDs";
 import Wallet from "./pages/Wallet";
 import BillingPage from "./pages/Billing";
 import Settings from "./pages/Settings";
@@ -45,7 +45,7 @@ export default function App() {
             {/* Nested Dashboard Views */}
             <Route index element={<MessagingOverviewDashboard />} />
             <Route path="messages" element={<MessagesPage />} />
-            <Route path="sender-ids" element={<SenderIds />} />
+            <Route path="sender-ids" element={<SenderIdsPage />} />
             <Route path="wallet" element={<Wallet />} />
             <Route path="billing" element={<BillingPage />} />
             <Route path="settings" element={<Settings />} />
