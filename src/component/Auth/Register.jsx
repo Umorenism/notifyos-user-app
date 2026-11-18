@@ -98,7 +98,7 @@ export default function RegisterPage() {
       }}
     >
       {/* Top-Left NotifyOs Brand Logo */}
-      <header className="w-full max-w-[1200px] mx-auto mb-6 sm:mb-8">
+      {/* <header className="w-full max-w-[1200px] mx-auto mb-6 sm:mb-8">
         <div className="inline-flex items-center gap-2.5 select-none">
           <div className="w-9 h-9 rounded-[8px] bg-gradient-to-br from-[#3720D8] to-[#1D0F9E] flex items-center justify-center shadow-sm p-1">
             <div className="w-full h-full rounded-[5px] border-[1.8px] border-white flex items-center justify-center">
@@ -124,7 +124,7 @@ export default function RegisterPage() {
             NotifyOs
           </span>
         </div>
-      </header>
+      </header> */}
 
       {/* Centered Registration Card */}
       <main className="flex-1 flex items-center justify-center pb-8">
