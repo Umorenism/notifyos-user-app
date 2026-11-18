@@ -18,7 +18,7 @@ import SenderIdsPage from "./pages/SenderIDs";
 import Wallet from "./pages/Wallet";
 import BillingPage from "./pages/Billing";
 import Settings from "./pages/Settings";
-import APIKeys from "./pages/APIKeys";
+import APIKeys from "./pages/ApiKeys";
 import TemplatesAndWebhooks from "./pages/Templates";
 
 export default function App() {
