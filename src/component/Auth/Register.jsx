@@ -352,6 +352,15 @@ export default function RegisterPage() {
                 {loading ? "Creating..." : "Continue"}
               </button>
             </div>
+             <div className="text-center pt-3 text-xs text-gray-500 font-medium">
+            Already have an account?{" "}
+            <Link
+              to="/login"
+              className="font-bold text-[#0a194f] hover:underline"
+            >
+              Login
+            </Link>
+          </div>
           </form>
         </div>
       </main>
